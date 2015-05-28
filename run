@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Runner for docker-etherpad
+
+docker run -d -v $PWD/etherpad-lite:/etherpad --restart=always --expose=[8080:9001] /etherpad/bin/run.sh etherpad

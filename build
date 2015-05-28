@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Builder for docker-etherpad
+
+docker build -t etherpad .
