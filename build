@@ -2,4 +2,4 @@
 
 # Builder for docker-etherpad
 
-docker build -t etherpad .
+docker build -t etherpad --rm .
